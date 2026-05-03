@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Social Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo" onclick="goHome()">MyLogo</div>
+        <a href="home.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="friends.html">Friends</a>
+        <a href="messages.html">Messages</a>
+        <a href="notifications.html">Notifications</a>
+
+        <a href="admin-login.html">Admin</a>
+        <a href="reporting.html">Reporting</a>
+        <a href="analytics.html">Analytics</a>
+        
+        <input type="text" id="search" placeholder="Search..." onkeyup="searchUser()">
+        
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <footer>
+        <h2>Footer</h2>
+        <ul>
+            <li>About Us</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+            <li>Contact Us</li>
+        </ul>
+        <p>Social media icons linking to external social profiles</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

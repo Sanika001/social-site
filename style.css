@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #1877f2;
+    padding: 10px;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.navbar input {
+    margin-left: auto;
+    padding: 5px;
+}
+
+.navbar button {
+    margin-left: 10px;
+    padding: 5px 10px;
+}
